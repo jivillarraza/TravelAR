@@ -1,0 +1,60 @@
+/*body*/
+
+body{
+    background-color: #B5E2FA;
+    font-family: 'Comfortaa', cursive;
+    color: #0fa3b1 ;
+}
+
+/*header*/
+
+header{
+
+    align-items: center;
+    color: #0fa3b1 ;
+    position: sticky;
+    top: 0;
+
+}
+
+.navbar {
+    background-color: #EDDEA4 !important;
+}
+
+/*banner*/
+
+.banner {
+    height: 100vh;
+    background: url("../images/Cataratas.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+/*seccions*/
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img{
+
+    width: 95%;
+    max-width: 600px;
+    
+}
+
+
+
+
+/*footer*/
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EDDEA4;
+}
+
