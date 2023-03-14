@@ -18,8 +18,7 @@ header{
 }
 
 .navbar {
-    background-color: #EDDEA4 !important;
-    z-index: 10;
+    background-color: #EDDEA4;
 }
 
 .navbar-brand {
@@ -78,9 +77,6 @@ h2 {
 
 }
 
-.container-destinos{
-    z-index: 20;
-}
 
 .card-img-top {
 
