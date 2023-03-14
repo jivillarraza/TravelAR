@@ -4,21 +4,23 @@ body{
     background-color: #B5E2FA;
     font-family: 'Comfortaa', cursive;
     color: #0fa3b1 ;
+
 }
 
 /*header*/
 
 header{
-
+    z-index:999;
     align-items: center;
     color: #0fa3b1 ;
-    position: sticky;
+    position: sticky; 
     top: 0;
 
 }
 
 .navbar {
-    background-color: #EDDEA4;
+    background-color: #EDDEA4 !important;
+
 }
 
 .navbar-brand {
@@ -68,16 +70,18 @@ h2 {
 .row {
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     margin-top: 10;
     margin-bottom: 10;
     margin-left: 10;
     margin-right: 10;
-
+ 
 }
 
-
+.card {
+    margin-top: 10;
+}
 .card-img-top {
 
     margin-top: 10;
