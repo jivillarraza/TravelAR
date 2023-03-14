@@ -19,7 +19,25 @@ header{
 
 .navbar {
     background-color: #EDDEA4 !important;
+    z-index: 10;
 }
+
+.navbar-brand {
+
+    color: #0fa3b1;
+
+}
+
+.nav-link {
+
+    color: #0fa3b1;
+
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #0fa3b1;
+}
+
 
 /*banner*/
 
@@ -44,6 +62,29 @@ h2 {
     width: 95%;
     max-width: 600px;
     
+}
+
+/*Destinos*/
+
+.row {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10;
+    margin-bottom: 10;
+    margin-left: 10;
+    margin-right: 10;
+
+}
+
+.container-destinos{
+    z-index: 20;
+}
+
+.card-img-top {
+
+    margin-top: 10;
 }
 
 
