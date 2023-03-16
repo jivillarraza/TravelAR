@@ -25,6 +25,7 @@ header{
 
 .navbar-brand {
     color: #0fa3b1;
+    font-weight: bold;
 }
 
 .nav-link {
@@ -33,6 +34,10 @@ header{
 
 .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
     color: #0fa3b1;
+}
+
+.navbar-collapse {
+    justify-content: end;
 }
 
 
@@ -58,6 +63,18 @@ h2 {
     width: 95%;
     max-width: 600px;
 }
+
+/*Excursiones*/
+
+.card {
+    margin-top: 11px;
+    margin-left: 10;
+    margin-right: 10;
+    padding-right: 10;
+    padding-left: 10;
+}
+
+
 
 /*Galeria*/
 
