@@ -79,6 +79,12 @@ h2 {
     
 }
 
+.btn-primary {
+    --bs-btn-bg:  #0fa3b1;
+    --bs-btn-border-color: #0fa3b1;
+    --bs-btn-hover-bg: #0a6e77;
+    --bs-btn-hover-border-color: #0a6e77;
+}
 
 
 /*Galeria*/
@@ -100,6 +106,11 @@ div.galeria.row {
 .card-img-top {
 
     margin-top: 10;
+}
+
+.titlecard { 
+    font-size: larger;
+    justify-items: center;
 }
 
 /*Contacto*/
