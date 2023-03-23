@@ -1,0 +1,28 @@
+header{
+    z-index:999;
+    align-items: center;
+    color: #0fa3b1 ;
+    position: sticky; 
+    top: 0;
+}
+
+.navbar {
+    background-color: #EDDEA4 !important;
+}
+
+.navbar-brand {
+    color: #0fa3b1;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #0fa3b1;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #0fa3b1;
+}
+
+.navbar-collapse {
+    justify-content: end;
+}
